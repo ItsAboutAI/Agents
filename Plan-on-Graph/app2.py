@@ -530,7 +530,7 @@ def main():
     with st.sidebar:
         st.header("Configuration")
         #api_key = st.text_input("Groq API Key", type="password")
-        api_key = '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'
+        api_key = 'key'
         if api_key:
             os.environ["GROQ_API_KEY"] = api_key
 
